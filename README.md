@@ -4,13 +4,18 @@ the sbox of AES is designed by two case because of lack of ROM generate tool
 if you 'd love to apply this implement,you 'd better to replace it.
 the verification environment and design compiler result will be added when I have another spare time
 ports：
+
 clk\n
+
 rst_n
 
 key    //this is the port for the key
+
 iv     //this is the port for the iv
+
 length //how many 128bits you'd love to encrypt
-start
+
+start  //start signal
 
 valid //everytime it is high the output is valid
 z     //the outout of SnowV 
@@ -22,14 +27,20 @@ SBOX受限于没有ROM生成工具只能用双case实现
 先留个坑，验证环境以及dc结果后续慢慢补
 
 接口说明
-clk\n
+clk
+
 rst_n 
 
 key      //256bit的密钥
+
 iv       //初始向量
+
 length   //需要加密的长度，单位是128bits
 
+start
+
 valid    //高有效
+
 z        //每拍输出128bit数据
 
 如果是中国大陆的人有特殊需求可以联系我，视情况有偿/无偿帮忙改进
