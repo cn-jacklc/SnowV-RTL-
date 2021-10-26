@@ -1,8 +1,12 @@
 # SnowV-RTL-
 This is a SnowV algorithm RTL implement,
+
 the sbox of AES is designed by two case because of lack of ROM generate tool
+
 if you 'd love to apply this implement,you 'd better to replace it.
+
 the verification environment and design compiler result will be added when I have another spare time
+
 ports：
 
 clk\n
@@ -22,8 +26,11 @@ z     //the outout of SnowV
 
 
 随便写的一个SnowV的RTL实现，每个周期递归一次。
+
 SBOX受限于没有ROM生成工具只能用双case实现
+
 如果真的有人要应用，最好替换一下
+
 先留个坑，验证环境以及dc结果后续慢慢补
 
 接口说明
