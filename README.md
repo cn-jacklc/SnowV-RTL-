@@ -27,7 +27,7 @@ z     //the outout of SnowV
 
 随便写的一个SnowV的RTL实现以及一个c模型，每个周期递归一次。
 
-SBOX受限于没有ROM生成工具只能用双case实现
+sbox受限于没有ROM生成工具只能用双case实现
 
 如果真的有人要应用，最好替换一下
 
