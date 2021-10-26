@@ -1,5 +1,5 @@
 # SnowV-RTL-
-This is a SnowV algorithm RTL implement,
+This is a SnowV algorithm RTL implement with a c model
 
 the sbox of AES is designed by two case because of lack of ROM generate tool
 
@@ -25,7 +25,7 @@ valid //everytime it is high the output is valid
 z     //the outout of SnowV 
 
 
-随便写的一个SnowV的RTL实现，每个周期递归一次。
+随便写的一个SnowV的RTL实现以及一个c模型，每个周期递归一次。
 
 SBOX受限于没有ROM生成工具只能用双case实现
 
